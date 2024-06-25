@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+node_modules/
+
+#Ignore the images folder
+public/images/*
+
+# Except for this file to keep the directory tracked
+!public/images/.gitkeep
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env.*
+!.env.example
